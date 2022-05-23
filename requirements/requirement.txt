@@ -1,0 +1,16 @@
+1-Create a form - 5min
+2-Style the form -10min
+3-Create Login and Sign In feature using JS. - 30min
+
+-form with validation  ---Done
+-Display User Entries  ---Done 
+-Edit/Delete User Entries
+-sorting and searching on table
+-routing to Sign In page (low priority)
+-validation: user should be unique on the basis of their email id ---Done
+-give a option to user how they want to see their todo data in tabular or card bases...
+task completed on 22nd May 2022
+
+-form with validation
+-Display User Entries (in tabular form)
+

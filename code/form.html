@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Application</title>
+    <link rel="stylesheet" href="./form.css"></link>
+</head>
+<body onload="onPageLoad()">
+    <h1 class="todo-heading">Todo Application</h1>
+    <!-- <form>
+        <h2>Sign In</h2>
+        <input type="email" placeholder="Enter the email" id="email_value" />
+        <input type="password" placeholder="Enter the password" id="password_value" />
+        <button type="submit" >Sign In</button>
+    </form> -->
+    <h2 class="details-text">Enter Details :</h2>
+    <form id="form" onsubmit="addRecords(event)">
+        <img src="../helper/download.jpg" alt="user" id="user_image">
+        <label for="firstname">First Name<span style="color: red;">*</span> :</label>
+        <input type="text" placeholder="Enter the firstname" id="firstname_value"
+        required class="p-5"
+        />
+        <label for="lastname">Last Name<span style="color: red;">*</span> :</label>
+        <input type="text" placeholder="Enter the lastname" id="lastname_value"
+        required class="p-5"
+        />
+        <label for="mobile">Mobile number<span style="color: red;">*</span> :</label>
+        <input type="number" placeholder="Enter the mobile number" id="mobile_value"
+        required class="p-5"
+         />
+        <label for="email_label">Email<span style="color: red;">*</span> :</label>
+        <input type="email" placeholder="Enter the email" id="email_value" 
+        required class="p-5"
+       />
+        <button type="submit"  id="add">ADD USER</button>
+    </form>
+
+
+    <table class="my-table">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Mobile</th>
+            <th>Email</th>
+
+        </tr>
+    </table>
+    <script type="text/javascript" src="./form.js" ></script>
+</body>
+</html>
